@@ -12,18 +12,17 @@ def loves_me(number):
                 i = " LOVES ME NOT"
                 numbers = numbers + i
             else:
-                i = " LOVES ME"
+                i = "LOVES ME"
                 numbers = numbers + i
         else:
             if i % 2 == 0:
-                i = " Loves me not, "
+                i = "Loves me not, "
                 numbers = numbers +i
             else:
-                i = "Loves me,"
+                i = "Loves me, "
                 numbers = numbers + i
     
 
     return numbers
-
 
 
