@@ -9,18 +9,18 @@ def loves_me(number):
     for i in numbers1:
         if i == number:
             if i % 2 == 0:
-                i = " LOVES ME NOT"
-                numbers = numbers + i
+                i = "LOVES ME NOT"
+                numbers = numbers + " " + i
             else:
                 i = "LOVES ME"
-                numbers = numbers + i
+                numbers = numbers + " " + i
         else:
             if i % 2 == 0:
-                i = "Loves me not, "
-                numbers = numbers +i
+                i = "Loves me not,"
+                numbers = numbers + " " + i
             else:
-                i = "Loves me, "
-                numbers = numbers + i
+                i = "Loves me,"
+                numbers = numbers + " " + i
     
 
     return numbers
