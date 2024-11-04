@@ -4,6 +4,7 @@ def loves_me(number):
     numbers = str("Loves me,")
     num1 = 1
     if number == 1:
+        numbers = str("LOVES ME")
         return numbers
     else:
         while num1 != number:
