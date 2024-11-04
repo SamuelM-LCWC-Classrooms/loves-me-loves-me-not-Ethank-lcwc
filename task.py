@@ -24,6 +24,6 @@ def Loves_me(number):
     numbers = str(numbers)
 
     return numbers
-print(Loves_me(6))
+
 
 
