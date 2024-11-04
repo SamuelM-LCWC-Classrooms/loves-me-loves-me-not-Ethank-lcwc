@@ -1,5 +1,5 @@
 
-def Loves_me(number):
+def loves_me(number):
     numbers1 = []
     numbers = str()
     num1 = 0
