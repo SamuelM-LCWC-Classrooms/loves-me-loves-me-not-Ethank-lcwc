@@ -1,7 +1,7 @@
 
 def Loves_me(number):
     numbers1 = []
-    numbers = []
+    numbers = str()
     num1 = 0
     while num1 != number:
         num1 = num1 + 1
@@ -9,19 +9,19 @@ def Loves_me(number):
     for i in numbers1:
         if i == number:
             if i % 2 == 0:
-                i = "LOVES ME NOT"
-                numbers.append(i)
+                i = " LOVES ME NOT"
+                numbers = numbers + i
             else:
-                i = "LOVES ME"
-                numbers.append(i)
+                i = " LOVES ME"
+                numbers = numbers + i
         else:
             if i % 2 == 0:
-                i = "Loves me not"
-                numbers.append(i)
+                i = " Loves me not, "
+                numbers = numbers +i
             else:
-                i = "Loves me"
-                numbers.append(i)
-    numbers = str(numbers)
+                i = "Loves me,"
+                numbers = numbers + i
+    
 
     return numbers
 
