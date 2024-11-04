@@ -1,7 +1,7 @@
 
 def loves_me(number):
     numbers1 = []
-    numbers = str("loves me,")
+    numbers = str("Loves me,")
     num1 = 1
     while num1 != number:
         num1 = num1 + 1
