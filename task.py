@@ -21,8 +21,9 @@ def Loves_me(number):
             else:
                 i = "Loves me"
                 numbers.append(i)
+    numbers = str(numbers)
 
     return numbers
-
+print(Loves_me(6))
 
 
