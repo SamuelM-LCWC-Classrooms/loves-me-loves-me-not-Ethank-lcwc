@@ -1,8 +1,8 @@
 
 def loves_me(number):
     numbers1 = []
-    numbers = str()
-    num1 = 0
+    numbers = str("loves me,")
+    num1 = 1
     while num1 != number:
         num1 = num1 + 1
         numbers1.append(num1)
@@ -21,8 +21,6 @@ def loves_me(number):
             else:
                 i = "Loves me,"
                 numbers = numbers + " " + i
-    
-
     return numbers
 
 
